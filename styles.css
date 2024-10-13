@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Source Code Pro";
+    src: url("resources/SourceCodePro-Regular.ttf");
+}
+
+body {
+    background-image: url("resources/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-attachment: fixed;
+    font-family: "Source Code Pro";
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px 0px;
+}
+
+li h2 {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    font-size: 0.9em;
+}
